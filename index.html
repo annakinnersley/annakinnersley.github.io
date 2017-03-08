@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Football Crunch</title>
+    <meta charset="utf-8" />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <h1 class="col-sm-7">Football Crunch</h1>
+        <nav class="col-sm-5">
+          <a class="btn btn-outline-secondary" href="index.html" role="button">Home</a>
+          <a class="btn btn-outline-secondary" href="aboutme.html" role="button">About Me</a>
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown">Articles
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="currentarticles.html">Current Season</a></li>
+              <li><a href="archivedarticles.html">Previous Season</a></li>
+              <li class="divider"></li>
+              <li><a href="externallinks.html">External Links</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-outline-secondary" href="contactme.html" role="button">Contact</a>
+        </nav>
+    </div>
+  </header>
+    <!--<section class="jumbotron">
+      <div class="container">
+        <div class="row text-center">
+          <h2>Jack's Blog</h2>
+          <h3>Latest Articles</h3>
+          <a class="btn btn-primary" href="#">See all</a>
+        </div>
+      </div>
+    </section> -->
+    <section class="container-fluid">
+      <div class="row text-center">
+        <div class="col-sm-6 first">
+          <a href="archivedarticles.html"><h2>It's time for Mesut Ozil to grab the title by the scruff of its neck</h2></a>
+          <div class="hidden-xs" id="hidden-text"><p>20 months ago, Mesut Ozil was preparing to win the World Cup Final, yet despite being a champion of the world the Gunners man still divides opinion.</p></div>
+        </div>
+        <div class="col-sm-6 second">
+          <a href="archivedarticles.html"><h2>Manchester City should consider selling Vincent Kompany</h2></a>
+          <div class="hidden-xs" id="hidden-text2"><p>On his day, Vincent Kompany is seen by many as the best centre-back in the world, but now might be the time for Manchester City to say farewell.</p></div>
+        </div>
+        <div class="col-sm-6 third">
+          <a href="archivedarticles.html"><h2>How Tottenham can learn from Liverpool's second place finish</h2></a>
+          <div class="hidden-xs" id="hidden-text3"><p>Steven Gerrard cried for hours that day because he knew Liverpool had blown his best chance of winning the Premier League title.</p></div>
+        </div>
+        <div class="col-sm-6 fourth">
+          <a class="twitter-timeline" data-height="250" href="https://twitter.com/KinnersleyJ">Tweets by KinnersleyJ</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div class="row">
+        <p id="copyright" class="col-sm-4">&copy; 2017 The Bee Team</p>
+        <ul class="col-sm-8">
+          <li class="col-sm-1">
+            <img src="#">
+          </li>
+          <li class="col-sm-1">
+            <img src="#">
+          </li>
+          <li class="col-sm-1">
+            <img src="#">
+          </li>
+          <li class="col-sm-1">
+            <img src="#">
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+  </body>
+
+  </html>

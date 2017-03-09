@@ -32,14 +32,6 @@ header p {
   margin: 0;
 }
 
-.container-fluid {
-  margin-top:
-}
-
-.righthside {
-  float: right;
-}
-
 .container-fluid p {
   color: white;
   font-size: 18px;
@@ -312,12 +304,7 @@ section .row img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-}
-
-@media (max-width:769px) {
-  .fourth {
-    margin-top: 40px;
-  }
+@media (max-width:769px){
 
   .first.active {
   height: 300px;
@@ -381,14 +368,9 @@ footer {
   border-style: solid;
 }
 
-footer .row {
-  display: flex;
-  align-items: center;
-}
 
 footer .col-sm-4 {
   display: flex;
- justify-content: flex-end;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 30px;

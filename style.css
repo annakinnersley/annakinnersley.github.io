@@ -1,0 +1,418 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+  border-width: 0 0 5px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+.footballcrunch {
+  font-weight: 700;
+  margin: 0;
+  font-size: 36px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 25px;
+  margin: 0;
+}
+
+.container-fluid p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container-fluid h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#copyright {
+  color: black;
+  font-size: 18px;
+}
+
+#hidden-text {
+
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 350px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  border-width: 5px 0 5px 0;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 0px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.first {
+  height: 300px;
+  background-image: url('ozil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second {
+  height: 300px;
+  background-image: url('pep.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third {
+  height: 300px;
+  background-image: url('steven.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth {
+  height: 300px;
+  background-image: url('grass1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+}
+
+.col-sm-12 {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  border-color: black;
+}
+
+.col-sm-12 h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.one {
+  background: url('ozillarge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 30%;
+}
+
+.two {
+  background: url('peplarge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 15%;
+}
+
+.three {
+  background: url('stevenlarge.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.col-sm-7 {
+  width: 100%;
+  color: black;
+}
+
+.col-sm-5 {
+  float: right;
+}
+
+.col-sm-5 a {
+  color: black;
+  text-align: center;
+}
+
+
+
+
+.col-sm-8 h1 {
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.col-sm-8 p {
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.col-sm-10 p {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.col-sm-10 h4 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+
+@media (min-width:770px) {
+  .first.active {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('ozil.jpg');
+  width: 75%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second.active {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('pep.jpg');
+  width: 75%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third.active {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('steven.jpg');
+  width: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth.active {
+  height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('grass1.jpg');
+  width: 75%;
+  padding-top: 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first.not-active {
+  background-image: url('ozil.jpg');
+  width: 25%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second.not-active {
+  background-image: url('pep.jpg');
+  width: 25%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third.not-active {
+  background-image: url('steven.jpg');
+  width: 25%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourth.not-active {
+  background-image: url('grass1.jpg');
+  width: 25%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first.not-in-use {
+  background-image: url('ozil.jpg');
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second.not-in-use {
+  background-image: url('pep.jpg');
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third.not-in-use {
+  background-image: url('steven.jpg');
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourth.not-in-use {
+  background-image: url('grass1.jpg');
+  width: 50%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width:769px){
+
+  .first.active {
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('ozil.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second.active {
+  height: 300px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('pep.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third.active {
+height: 300px;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('steven.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.fourth.active {
+height: 300px;
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('grass1.jpg');
+background-repeat: no-repeat;
+background: cover;
+}
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.btn {
+  background-color: transparent;
+  color: #337ab7;
+}
+
+
+footer {
+  font-size: 12px;
+  padding:  0;
+  border-width: 5px 0 0 0;
+  border-color: black;
+  border-style: solid;
+}
+
+
+footer .col-sm-4 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer ul {
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+.col-sm-1 {
+  margin-right: 20px;
+  float: right;
+}
+
+footer li {
+  width: 32px;
+  height: 32px;
+  display: inline;
+}
+
+/* About Me CSS */
+
+
+.img-circle {
+  border: 5px solid black;
+}
+
+.aboutme p {
+  color: white;
+}
+
+.aboutme2 {
+  text-align: center;
+}
+
+.aboutme2 p {
+  text-align: center;
+}
+
+.oursubmit {
+  background-color: black;
+}

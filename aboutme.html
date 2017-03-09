@@ -36,10 +36,10 @@
   <section class="container-fluid" class="aboutme" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(grass1.jpg)">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <img class="img-circle" src="jack.jpg">
+        <img style="border: 5px solid black" class="img-circle" src="jack.jpg">
       </div>
       <div class="col-xs-12 col-sm-8 aboutme">
-        <p> After writing various bits and bobs for sports websites, including 'TheSPORTBible', I decided to push myself further by working for my local papers.</br>
+        <p style="color:white"> After writing various bits and bobs for sports websites, including 'TheSPORTBible', I decided to push myself further by working for my local papers.</br>
 
 </br>I covered non-league football for over a year, which involved writing match reports and interviewing players/managers at the age of 17. </br>
 
@@ -68,7 +68,7 @@
   <footer class="container-fluid">
     <div class="row">
       <p id="copyright" class="col-sm-8">&copy; 2017 The Bee Team</p>
-      <ul class="col-sm-4">
+      <ul style="list-style-type:none" class="col-sm-4">
         <li class="col-sm-1">
           <a href="https://www.facebook.com/KinnersleyJack/"><img src="fblogo.png"></a>
         </li>
@@ -79,5 +79,21 @@
       </ul>
     </div>
   </footer>
+  <script>window.twttr = (function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0],
+  t = window.twttr || {};
+if (d.getElementById(id)) return t;
+js = d.createElement(s);
+js.id = id;
+js.src = "https://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js, fjs);
+
+t._e = [];
+t.ready = function(f) {
+  t._e.push(f);
+};
+
+return t;
+}(document, "script", "twitter-wjs"));</script>
   </body>
   </html>
